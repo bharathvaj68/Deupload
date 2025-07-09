@@ -19,7 +19,7 @@ body {
 /* Parent Container Styles */
 
 .parent {
-    width: 1520px;
+    width: 100vw;
     margin-right: auto;
     margin-left: auto;
 }

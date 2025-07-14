@@ -998,7 +998,7 @@ a {
     justify-content: start;
     align-items: center;
     margin-top: 50px;
-    width: 1232px;
+    width: 100%;
 }
 
 .gs-2-1 {
@@ -1067,13 +1067,13 @@ a {
     justify-content: start;
     align-items: start;
     margin-left: 5px;
-    margin-top: 20px;
+    /* margin-top: 10px; */
     padding: 00px 75px 00px 20px;
 }
 
-.business-img {
+/* .business-img {
     margin-top: 8px;
-}
+} */
 
 .gs-2-2-col1>h4 {
     font-size: 24px;
@@ -1087,12 +1087,12 @@ a {
     font-weight: 400;
     color: #651FFF;
     letter-spacing: -2%;
-    margin: 15px 0px 18px 0px;
+    margin: 15px 0px 15px 0px;
 }
 
 .see-pricing{
     margin-top: 15px;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
 }
 
 .see-pricing>h6 {

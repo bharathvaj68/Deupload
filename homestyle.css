@@ -19,7 +19,7 @@ body {
 /* Parent Container Styles */
 
 .parent {
-    width: 100vw;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -104,7 +104,7 @@ a {
 }
 
 .vb-content {
-    width: 1120px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@ a {
 }
 
 .intro {
-    width: 80%;
+    width: 60%;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -132,6 +132,7 @@ a {
 #intro-2 {
     font-family: Poppins, sans-serif;
     font-size: 20px;
+    width: 90%;
     color: #5C5F6E;
     line-break: strict;
     text-align: center;
@@ -172,7 +173,7 @@ a {
 }
 
 .hero-screen {
-    width: 1220px;
+    width: 75vw;
     height: auto;
     margin: 75px auto 50px auto;
     display: block;
@@ -188,6 +189,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main {
@@ -201,12 +205,10 @@ a {
 .sub-main {
     font-size: 18px;
     color: #5C5F6E;
-    width: 1127px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    text-align: center;
 }
 
 .sections {
@@ -216,7 +218,9 @@ a {
     align-items: start;
     gap: 20px;
     margin-top: 50px;
-    width:80%
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .l-violet-box {
@@ -224,11 +228,12 @@ a {
     padding: 30px 50px;
     border-radius: 24px;
     width: 300px;
+    height: 400px;
     text-align: center;
     display:flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
 
 .l-violet-box>img {
@@ -320,13 +325,13 @@ a {
     justify-content: center;
     margin-top: 50px;
     margin-left: 0;
-    width: 1520px;
+    width: 80vw;
     margin-right: auto;
     margin-left: auto;
 }
 
 .features-title {
-    margin-left:0%;
+    margin-left: 0%;
 }
 
 .features-topic {
@@ -334,10 +339,6 @@ a {
     font-weight: 700;
     color: #333;
     text-align: start;
-    margin-top: 50px;
-    margin-left: 11.5%;
-    margin-right: 29%;
-
 }
 
 .features-box-1 {
@@ -349,14 +350,14 @@ a {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    width: 80vw;
 }
 
 .fb1-1 {
     background-color: #FFF7ED;
     padding: 20px 20px 0px 0px;
     border-radius: 12px;
-    width: 572px;
-    height: 666x;
+    width: 50%;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -380,21 +381,18 @@ a {
     color:#838696;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 #file-sharing {
-    width: 390px;
-    height: 380px;
+    width: 63%;     
     margin-left: 20px;
-}
+}   
 
 .fb1-2 {
     background-color: #E0F7FA   ;
     padding: 20px 20px 0px 0px;
     border-radius: 12px;
-    width: 572px;
-    height: 666px;
+    width: 50%;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -403,8 +401,7 @@ a {
 }
 
 #file-request {
-    width: 390px;
-    height: 383px;
+    width: 63%;
     margin-left: 20px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -414,23 +411,25 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    align-items: center;
-    gap: 20px;
+    align-items: center;        
     margin-top: 50px;
+    margin-right: 0px;
     margin-bottom: 20px;
     background-color: #ECECFE;
-    width: 1202px;
+    width: 80vw;
     height: fit-content;
     border-radius: 12px;
-    margin-left: 10.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 2% 0;
 }
 
 .fb2-1 {
     background-color: #ECECFE;
     padding: 30px 20px 0px 50px;
     border-radius: 12px;
-    width: 444px;
-    height: 475px;
+    width: 45%;
+    height: fit-content;
     text-align: center;
     display:flex;   
     flex-direction: column;
@@ -440,22 +439,23 @@ a {
 }
 
 .fb2-1>h4 {
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
     font-style: bold;
     color: #0B0D0E;
     margin-bottom: 0%;
-    text-align: start;
-    width:456px;
     margin-top: 20px;
+    text-align: start;
+    width: 90%;
 }
 
 .fb2-1>h6 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     color:#838696;
     margin-right: 10%;
+    margin-bottom: 05%;
     text-align: start;
 }
 
@@ -494,25 +494,26 @@ a {
     margin-left: 20px;
 }
 
-#team-collaboration {
-    width: 525px;
-    height: 565px;
-    margin-left: 50px;
- 
+.fb2-2 {
+    width: 45%;;
 }
 
+#team-collaboration {
+    width: 100%;
+    height: 100%;
+}
 
 /* Decentralization Section Styles */
 
 .decentralization {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
-    width: 1232px;
+    width: 80vw;
     gap: 20px;
     padding-bottom: 100px;
 }
@@ -525,7 +526,7 @@ a {
     margin-top: 20px;
     margin-right: 4px;
     margin-left: 20px;
-    width: 632px;
+    width: 50%;
 }
 
 .d-col-1-row-1 {
@@ -615,11 +616,13 @@ a {
     margin-right: 0;
     margin-left: -50px;
     gap: 15px;
+    width: 50%;
 }
 
 .private, .distributed, .availability {
-    height: 168px;
-    width: 582px;
+    /* height: 40%; */
+    width: 90%;
+    padding: 20px ;
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -666,7 +669,7 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 1232px;
+    width: 80vw;
     background-color: #00E5FF;
     height: 560px;
     margin-left: auto;
@@ -864,7 +867,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1232px;
+    width: 80vw;
     margin: 250px auto 50px auto;
 }
 
@@ -899,7 +902,7 @@ a {
 .account, .upload, .share {
     text-align: center;
     padding: 10px;
-    width: 410px;
+    width: 40%;
     height: 300px;
 }
 
@@ -939,8 +942,9 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 1232px;
+    width: 80vw;
     margin: 100px auto 100px auto;
+    background-color: #651FFF;
 }
 
 .get-started-1 {
@@ -949,7 +953,7 @@ a {
     justify-content: start;
     align-items: start;
     margin-top: 10px;
-    width: 1232px;
+    width: 100%;
 }
 
 .gs-1-1 {
@@ -1138,7 +1142,7 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 1180px;
+    width: 80%;
     margin-top: 50px;
     margin-bottom: 0px;
 }

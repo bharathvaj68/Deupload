@@ -1,28 +1,36 @@
 /*Common Styles*/
 
-/*body Styles*/
+    /* Universal Reset */
 
-body {
-    font-family: Poppins, sans-serif;
-    background-color: #F9F9FB;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*body Styles*/
 
-/* Violet Text Style */
-#violet-text{
-    color: #651FFF;
-    font-weight: 700;
-}
+    body {
+        font-family: Poppins, sans-serif;
+        background-color: #F9F9FB;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
 
-/* Parent Container Styles */
+    /* Violet Text Style */
+    #violet-text{
+        color: #651FFF;
+        font-weight: 700;
+    }
 
-.parent {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
+    /* Parent Container Styles */
+
+    .parent {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 /* Nav Bar Styles */
 

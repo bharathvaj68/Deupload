@@ -1248,7 +1248,7 @@ a {
 
 .about {
     width: 33%;
-    height: 240px;
+    /* height: 240px; */
     display: flex;
     flex-direction: column;
     justify-content: start;

@@ -221,7 +221,6 @@ a {
     align-items: center;
     gap: 20px;
     margin-top: 50px;
-    width: 80vw;
     padding: 0px 7%;
     margin-left: auto;
     margin-right: auto;
@@ -418,7 +417,6 @@ a {
     margin-right: 0px;
     margin-bottom: 20px;
     background-color: #ECECFE;
-    width: 80vw;
     height: fit-content;
     border-radius: 12px;
     margin-left: auto;
@@ -511,11 +509,11 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 75px auto 100px auto;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
     gap: 20px;
-    padding-bottom: 100px;
 }
 
 .d-col-1 {
@@ -672,7 +670,6 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 80vw;
     background-color: #00E5FF;
     height: 560px;
     margin: 100px auto 400px auto;
@@ -709,7 +706,7 @@ a {
     justify-content: center;
     background-color: #FFFFFF;
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.175);
-    width: 35%;
+    width: 40%;
     border-radius: 24px;
     margin-right: 0px;
 }
@@ -732,7 +729,7 @@ a {
     font-size: 12px;
     font-weight: 500;
     color: #838696;
-    text-align: center;
+    text-align: start;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -775,9 +772,10 @@ a {
 .pricing-card-1>div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 10px 50px 10px;
+    justify-content: start;
+    align-items: start;
+    text-align: justify;
+    margin: 20px 10px 75px 10px;
 }
 
 .pricing-card-1>div>img {
@@ -789,8 +787,8 @@ a {
     font-size: 16px;
     font-weight: 400;
     color: #838696;
-    text-align: center;
-    margin: 5px auto 5px auto;
+    text-align: start;
+    margin: 5px 0px 5px 5%;
 }
 
 
@@ -880,8 +878,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    margin: 150px auto 50px auto;
+    margin: 75px auto 50px auto;
 }
 
 .working>h2 {
@@ -907,7 +904,6 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 0px;
     margin-top: 50px;
 }
 
@@ -1014,6 +1010,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    gap: 30px;
 }
 
 .gs-2-1 {
@@ -1024,7 +1021,6 @@ a {
     align-items: start;
     background-color: #651FFF;
     border-radius: 24px;
-    margin-right: 15px;
 }
 
 .gs-2-1>img {
@@ -1046,6 +1042,7 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 20px;
+    width: 85%;
 }
 
 .startnow {
@@ -1075,7 +1072,6 @@ a {
     align-items: center;
     background-color: #e9e9fa;
     border-radius: 24px;
-    margin-left: 15px;  
 }
 
 .gs-2-2-col1 {
@@ -1132,8 +1128,8 @@ a {
 }
 
 .present-bus-img {
-    width: 254px;
-    height: 252px;
+    width: 100%;
+    padding-right: 05px;
 }
 
 /* Footer Styles */
@@ -1167,6 +1163,11 @@ a {
     margin-left: 10px;
     gap: 25px;
     margin-bottom: 40px;
+}
+
+.footer-mobile {
+    display:flex;
+    width: 60%;
 }
 
 .about {
@@ -1278,17 +1279,23 @@ a {
 
 /* Media Queries for Responsive Design */
 
-@media (max-width: 480px) {
+@media (max-width: 572px) {
     
+    .parent {
+        width: 85vw;
+    }
+
     /*Hero Section Styles*/
+
+    .intro {
+        width: 95%;
+    }
     #intro-1 {
-        font-size: 24px;
-        width: 85%;
+        font-size: 36px;
     }
 
     #intro-2 {
         font-size: 18px;
-        width:85%;
     }
 
     /*Lightning Section Styles */
@@ -1298,19 +1305,204 @@ a {
         align-items: center;
     }
 
+    .l-violet-box, .l-violet-box-1 {
+        width:100%;
+    }
+
     /*Features Styles */
 
-    .features-box-1 {
+    .features-box-1, .features-box-2 {
         flex-direction: column;
         align-items: center;
     }
 
-    .features-box-2 {
+    .features-topic {
+        font-size: 42px;
+    }
+
+    .fb1-1, .fb1-2, .fb2-1  {
+        width: 100%;
+    }
+
+    .fb1-1>h4, .fb1-2>h4, .fb2-1>h4 {
+        font-size: 36px;
+    }
+
+    .fb2-2 {
+        width: 80%;
+    }
+
+    /* Decentralization Section Styles */
+
+    .decentralization {
         flex-direction: column;
         align-items: center;
     }
 
+    .d-col-1, .d-col-2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .d-col-1-row-1 {
+        font-size: 46px;
+        text-align: start;
+        margin-right: auto;
+    }
+
+    .d-col-1-row-2{
+        margin-right:auto;
+        margin-left: auto;
+        text-align: justify;
+    }
+
+    .d-col-1-row-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upgrade, .carbon {
+       text-align: start; 
+    }
+
+    .private, .distributed, .availability {
+        width: 100%;
+    }
+    /* Pricing Section Styles*/
+
+    .pricing {
+        margin-top:25px;
+        margin-bottom: 900px;
+    }
+
+    .pricing-desc {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .pricing-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card-1 {
+        width: 85%;
+        margin-bottom: 0%;
+    }
+
+    .pricing-card-1>h5{
+        width: 80%;
+    }
+    .pricing-card-2 {
+        width: 85%;
+        margin-top: 1%;
+        border-radius: 24px;
+        
+    }
+
+    .pricing-card-2>h3 {
+        font-size: 44px;
+    }
+
+    .pricing-card-2>h4 {
+        width: 80%;
+    } 
+
+    .prices>h2, .prices-1>h2 {
+        font-size: 42px;
+    }
+
+    /* Working Section Styles */
+    .work-sub {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .account, .upload, .share {
+        width: 100%;
+        flex-direction: column;
+    }   
+
+    .dotted-line-3, .dotted-line-4 {
+        margin-top: 35px;
+        position:static;
+        opacity: 0.3;
+    }
+    
+    /* Get Started Section Styles */
+    .get-started-1, .get-started-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gs-1-1 {
+        width:90%;
+    }
+    .gs-1-2 {
+        margin-top: 10px;
+        width: 90%;
+        align-items: center;
+    }
+
+    .gs-1-2>h5 {
+        padding: 10px 60px;
+    }
+
+    .get-started-2 {
+        margin-top: 40px;
+        gap: 25px;
+    }
+    .gs-2-1 {
+        flex-direction:column;
+        align-items:start;
+        width: 100%;
+    }
+
+    .gs-2-1>h5 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gs-2-2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;;
+    }
+
+    .gs-2-2-col1, .gs-2-2-col2 {
+        width:90%;
+    }
+
+    .present-bus-img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /* Footer Section Styles*/
+
+    .footer-1, .footer-2 {
+        flex-direction: column;
+        background-color: #1A284E;
+        height: max-content;
+    }
+
+    .footer {
+        height:max-content;
+    }
+
+    .footer-2 {
+        margin-top: 0px;
+    }
+    .footer-mobile {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .about{
+        width:90%;
+    }
 }
 
 @media (max-width: 768px) {

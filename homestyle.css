@@ -1317,7 +1317,6 @@ a {
     .features-box-1, .features-box-2 {
         flex-direction: column;
         align-items: center;
-        width: 90%;
     }
 
     .features-topic {
@@ -1328,10 +1327,40 @@ a {
         width: 100%;
     }
 
-    .fb1-1>h4, .fb1-2>h4, .fb2-1>h4 {
+    .fb2-1 {
+        padding: 0px 0px 0px 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fb1-1>h4, .fb1-2>h4 {
         font-size: 36px;
     }
 
+    .fb2-1>h4 {
+        font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fb2-1>h6 {
+        width:90%;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fb-buttons {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .start {
+        margin-right: 0;
+    }
+
+    .more-features {
+        margin-left: 0;
+    }
     .fb2-2 {
         width: 80%;
     }
@@ -1350,12 +1379,12 @@ a {
     }
 
     .d-col-1-row-1 {
-        font-size: 46px;
         text-align: start;
         margin-right: auto;
     }
 
     .d-col-1-row-2{
+        font-size:16px;
         margin-right:auto;
         margin-left: auto;
         text-align: justify;
@@ -1365,8 +1394,16 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .upgrade {
+        margin-right: 0px;
+    }
     .upgrade, .carbon {
        text-align: start; 
+    }
+
+    .upgrade-4>h4, .carbon-4>h4 {
+        font-size: 12px;
     }
 
     .private, .distributed, .availability {
@@ -1376,9 +1413,11 @@ a {
 
     .pricing {
         margin-top:25px;
-        margin-bottom: 900px;
     }
 
+    .pricing-title {
+        font-size: 36px;
+    }
     .pricing-desc {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -1394,28 +1433,59 @@ a {
         margin-bottom: 0%;
     }
 
+    .pricing-card-1>h3, .pricing-card-2>h3 {
+        font-size: 36px;
+    }
+
+    .pricing-card-1>a {
+        width: 90%;
+        height: fit-content;
+        margin: 5px auto 20px auto;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .pricing-card-1>h4 {
+        font-size: 48px;
+    }
     .pricing-card-1>h5{
         width: 80%;
     }
+
+    .pricing-card-1>div {
+        display: none;
+    }
+    .pricing-card-1>div>p {
+        font-size: 12px;
+    }
+    .pricing-card-1>div>p>img {
+        width: 12px;
+    }
     .pricing-card-2 {
         width: 85%;
-        margin-top: 1%;
+        margin-top: 2%;
         border-radius: 24px;
-        
-    }
-
-    .pricing-card-2>h3 {
-        font-size: 44px;
+        padding-left: 5%;
     }
 
     .pricing-card-2>h4 {
         width: 80%;
     } 
 
+    .pricing-card-2>h5 {
+        display: none;
+    }
+
+    .prices {
+        margin-bottom: 0px;
+        display: none;
+    }
     .prices>h2, .prices-1>h2 {
         font-size: 42px;
     }
 
+    .prices-1 {
+        margin-bottom: 25px;
+    }
     /* Working Section Styles */
     .work-sub {
         flex-direction: column;
@@ -1428,12 +1498,16 @@ a {
     }   
 
     .dotted-line-3, .dotted-line-4 {
-        margin-top: 35px;
         position:static;
         opacity: 0.3;
     }
     
     /* Get Started Section Styles */
+
+    .get-started{
+        margin-top: 25px;
+    }
+
     .get-started-1, .get-started-2 {
         flex-direction: column;
         align-items: center;
@@ -1476,6 +1550,8 @@ a {
 
     .gs-2-2-col1, .gs-2-2-col2 {
         width:90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .present-bus-img {
@@ -1488,9 +1564,11 @@ a {
         flex-direction: column;
         background-color: #1A284E;
         height: max-content;
+        width: 90%;
     }
 
     .footer {
+        width: 100%;
         height:max-content;
     }
 
@@ -1506,6 +1584,11 @@ a {
 
     .about{
         width:90%;
+        margin-right: 0;
+    }
+
+    .social-icons{
+        padding-bottom: 1px;
     }
 }
 

@@ -425,7 +425,6 @@ a {
 }
 
 .fb2-1 {
-    background-color: #ECECFE;
     padding: 30px 20px 0px 50px;
     border-radius: 12px;
     width: 45%;
@@ -1310,6 +1309,10 @@ a {
     }
 
     /*Features Styles */
+
+    .features {
+        width: 100%;
+    }
 
     .features-box-1, .features-box-2 {
         flex-direction: column;

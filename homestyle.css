@@ -1297,6 +1297,17 @@ a {
         font-size: 18px;
     }
 
+    .ib-box-1 {
+        margin-right: 0px;
+        padding: 12px 20px;
+    }
+
+    .ib-box-2 {
+        margin-left: 0px;
+        padding: 12px 40px;
+    }
+
+
     /*Lightning Section Styles */
 
     .sections {
@@ -1327,16 +1338,20 @@ a {
         width: 100%;
     }
 
-    .fb2-1 {
-        padding: 0px 0px 0px 5px;
-        margin-left: auto;
-        margin-right: auto;
+    .fb1-1, .fb1-2{
+        padding-right: 0px;
     }
     .fb1-1>h4, .fb1-2>h4 {
         font-size: 36px;
     }
 
+    .fb2-1 {
+        padding: 0px 0px 0px 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .fb2-1>h4 {
+        margin-top: 25px;
         font-size: 28px;
         margin-left: auto;
         margin-right: auto;

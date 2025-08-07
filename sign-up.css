@@ -117,7 +117,7 @@ input:disabled {
 }
 
 .user-details>p>a:link {
-    color: rgb(0, 255, 234);
+    color: rgb(0, 170, 255);
     text-decoration: none;
 }
 

@@ -154,13 +154,13 @@ input:disabled {
 
     .user-details>h5 {
         font-size: 18px;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     input {
         /* padding: 10px 70px 10px 20px; */
         width: 85%;
-        margin-left: 15px;
+        margin-left: 10px;
         border-radius: 8px;
         font-size: 15px;
     }

@@ -131,3 +131,48 @@ input:disabled {
     text-decoration: none;
 }
 
+
+/* Media Queries Section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 572px) {
+    .user-details{
+        margin: 0;
+    }
+
+    .login-box {
+        width: 95vw;
+    }
+    .login-box>h2 {
+        font-size: 24px;
+        margin: 25px auto 25px auto;
+    }
+
+    .user-details>h5 {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    input {
+        padding: 10px 90px 10px 20px;
+        margin-left: 30px;
+        border-radius: 8px;
+    }
+
+    .button {
+        margin: 20px auto 0px auto;
+    }
+
+    .user-details>p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #logo-img {
+        width: 140px;
+    }
+}

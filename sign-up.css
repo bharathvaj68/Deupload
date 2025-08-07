@@ -158,9 +158,11 @@ input:disabled {
     }
 
     input {
-        padding: 10px 90px 10px 20px;
+        /* padding: 10px 70px 10px 20px; */
+        width: 85%;
         margin-left: 30px;
         border-radius: 8px;
+        font-size: 15px;
     }
 
     .button {

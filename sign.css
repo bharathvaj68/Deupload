@@ -108,3 +108,50 @@ input:disabled {
     margin-top: 30px;
     margin-bottom: 30px;
 } 
+
+/* Media Queries Section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 572px) {
+    .user-details{
+        margin: 0;
+    }
+
+    .login-box {
+        width: 95vw;
+    }
+    .login-box>h2 {
+        font-size: 24px;
+        margin: 25px auto 25px auto;
+    }
+
+    .user-details>h5 {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    input {
+        /* padding: 10px 70px 10px 20px; */
+        width: 90%;
+        margin-left: 15px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .button {
+        margin: 20px auto 0px auto;
+    }
+
+    .user-details>p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #logo-img {
+        width: 140px;
+    }
+}

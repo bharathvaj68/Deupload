@@ -1,0 +1,133 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: #F2F2FDFF;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#logo-img {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+}
+
+.login-box {
+    margin: auto auto;
+    background: #FFFFFFFF;
+    border-radius: 24px; 
+    box-shadow: 0px 4px 9px #171a1f1C, 0px 0px 2px #171a1f1F;
+}
+
+.login-box>h2 {
+    margin: 50px auto 50px auto;
+    text-align: center;
+    font-size: 38px; 
+    line-height: 36px; 
+    font-weight: 800; 
+    color: #171A1FFF;
+}
+
+.user-details {
+    margin: 50px 50px 0px 50px;
+}
+
+.user-details>h5 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+input {
+  padding: 15px 150px 15px 20px;
+  font-size: 18px; 
+  font-weight: 400; 
+  background: #F3F4F6FF; /* neutral-200 */
+  border-radius: 6px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+}
+
+input:hover {
+  color: #171A1FFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+/* focused */
+input:focused {
+  color: 171A1FFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+}
+/* disabled */
+input:disabled {
+  color: #BCC1CAFF; /* neutral-400 */
+  background: #F3F4F6FF; /* neutral-200 */
+}
+
+.button {
+  margin: 30px auto 20px auto;
+  padding: 10px 40px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 18px; 
+  font-weight: 700; 
+  color: #FFFFFFFF;
+  background: #636AE8FF; 
+  opacity: 1; 
+  border: none; 
+  border-radius: 6px;
+}
+/* Hover */
+.button:hover {
+  color: #FFFFFFFF;
+  background: #4850E4FF;
+}
+/* Pressed */
+.button:hover:active {
+  color: #FFFFFFFF; 
+  background: #2C35E0FF;
+}
+/* Disabled */
+.button:disabled {
+  opacity: 0.4; 
+}
+
+.user-details>p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.user-details>p>a {
+    font-weight: 700;
+}
+
+.user-details>p>a:link {
+    color: rgb(0, 255, 234);
+    text-decoration: none;
+}
+
+.user-details>p>a:hover {
+    color: slateblue;
+    text-decoration: none;
+};
+
+.user-details>p>a:visited {
+    color: rgb(85, 0, 255);
+    text-decoration: none;
+}
+

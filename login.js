@@ -26,6 +26,6 @@ document.getElementById("login").addEventListener("click", async (e) => {
         alert("Login failed: " + error.message);
     } else {
         alert("Login successful!");
-        window.location.href = "dashboard.html"; // redirect after login
+        window.location.href = "index.html"; // redirect after login
     }
 });

@@ -79,6 +79,6 @@ document.getElementById("sign-up").addEventListener("click", async (e) => {
         alert("Sign-up failed: " + error.message);
     } else {
         alert("Sign-up successful! Please check your email to confirm your account.");
-        window.location.href = "sign.html"; // redirect to login page
+        window.location.href = "login.html"; // redirect to login page
     }
 });

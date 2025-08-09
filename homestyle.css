@@ -95,6 +95,15 @@ a {
     cursor: pointer;
 }
 
+#box-3 {
+    display: none;
+    padding: 9px 17px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
 
 /* Hero Section Styles */
 
@@ -1278,6 +1287,7 @@ a {
 }
 
 /* Media Queries for Responsive Design */
+/*Smart phone design*/
 
 @media (max-width: 572px) {
     

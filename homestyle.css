@@ -97,10 +97,11 @@ a {
 
 #box-3 {
     display: none;
+    color: aliceblue;
     padding: 9px 17px;
-    background-color: #fff;
-    border: 2px solid #333;
+    background-color: #651FFF;
     border-radius: 12px;
+    border: 2px solid #651FFF;
     cursor: pointer;
 }
 
@@ -1293,6 +1294,13 @@ a {
     
     .parent {
         width: 85vw;
+    }
+
+
+    /*Nav-Bar Styles*/
+    #box-1, #box-2, #box-3 {
+        font-size: 12px;
+        padding: 8px 13px;
     }
 
     /*Hero Section Styles*/

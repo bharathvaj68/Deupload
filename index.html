@@ -363,4 +363,35 @@
     </footer>
 </body>
 
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+
+// Firebase config
+const firebaseConfig = {
+    apiKey: "AIzaSyDG1Y7iwejRqS-aKBblxhSkKIyuS7mCBsE",
+    authDomain: "deupload-ebff4.firebaseapp.com",
+    projectId: "deupload-ebff4",
+    storageBucket: "deupload-ebff4.firebasestorage.app",
+    messagingSenderId: "1093150935544",
+    appId: "1:1093150935544:web:f83910a04c55b93ed7ae0d",
+    measurementId: "G-M5GR4YKZV7"
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        // Hide Sign In and Create Account buttons
+        document.getElementById("box-1").style.display = "none";
+        document.getElementById("box-2").style.display = "none";
+    } else {
+        // Show them if logged out
+        document.getElementById("box-1").style.display = "block";
+        document.getElementById("box-2").style.display = "block";
+    }
+});
+</script>
+
 </html>

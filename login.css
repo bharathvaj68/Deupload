@@ -48,17 +48,52 @@ body {
 
 .email {
     margin-bottom: 10px;
+    padding: 15px 150px 15px 20px;
+    font-size: 18px; 
+    font-weight: 400; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
 }
 
-input {
+.password {
+    padding: 15px 80px 15px 20px;
+    font-size: 18px; 
+    font-weight: 400; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+}
+
+.password-box {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+}
+
+.password-box> img{
+    display: inline;
+    vertical-align:middle;
+    width: 25px;
+    cursor: pointer;
+}
+/* input {
   padding: 15px 150px 15px 20px;
   font-size: 18px; 
   font-weight: 400; 
-  background: #F3F4F6FF; /* neutral-200 */
-  border-radius: 6px; /* border-m */
+  background: #F3F4F6FF;
+  border-radius: 6px;
   border-width: 0px; 
   outline: none; 
-}
+} */
 
 input:hover {
   color: #171A1FFF; /* neutral-400 */
@@ -158,13 +193,47 @@ input:disabled {
         margin-left: 15px;
     }
 
-    input {
-        /* padding: 10px 70px 10px 20px; */
-        width: 90%;
+    .email {
+        padding: 15px 30px 15px 20px;
+        width: 92%;
         margin-left: 15px;
         border-radius: 8px;
-        font-size: 15px;
+        font-size: 18px;
     }
+
+
+    .password {
+    padding: 15px 5px 15px 20px;
+    font-size: 18px; 
+    font-weight: 400; 
+    width: 90%;;
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+    margin-left: 0;
+    }
+
+    .password-box {
+        padding-right: 10px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:92%;
+        background: #F3F4F6FF; /* neutral-200 */
+        border-radius: 6px; /* border-m */
+        border-width: 0px; 
+        outline: none; 
+    }
+
+    .password-box> img{
+        display: inline;
+        vertical-align:middle;
+        width: 25px;
+        cursor: pointer;
+    }
+
 
     .button {
         margin: 20px auto 0px auto;

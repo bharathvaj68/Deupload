@@ -49,6 +49,19 @@
     // ..
   });
   })
+
+const passwordInput = document.getElementById("password");
+const toggleEye = document.getElementById("toggle-eye");
+
+toggleEye.addEventListener("click", () => {
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleEye.src = "images/eye-open.svg"; // Change to open eye
+    } else {
+        passwordInput.type = "password";
+        toggleEye.src = "images/eye-close.svg"; // Change to closed eye
+    }
+});
   
 
 // // Your Supabase credentials

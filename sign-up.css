@@ -16,7 +16,7 @@ body {
 #logo-img {
     position: fixed;
     top: 25px;
-    left: 25px;
+    left: 15px;
 }
 
 .login-box {
@@ -51,8 +51,8 @@ body {
     padding: 15px 150px 15px 20px;
     font-size: 18px; 
     font-weight: 400; 
-    background: #F3F4F6FF; /* neutral-200 */
-    border-radius: 6px; /* border-m */
+    background: #F3F4F6FF;
+    border-radius: 6px;
     border-width: 0px; 
     outline: none; 
 }
@@ -61,8 +61,8 @@ body {
     padding: 15px 80px 15px 20px;
     font-size: 18px; 
     font-weight: 400; 
-    background: #F3F4F6FF; /* neutral-200 */
-    border-radius: 6px; /* border-m */
+    background: #F3F4F6FF; 
+    border-radius: 6px; 
     border-width: 0px; 
     outline: none; 
 }
@@ -73,8 +73,8 @@ body {
     align-items: center;
     justify-content: space-between;
     width:100%;
-    background: #F3F4F6FF; /* neutral-200 */
-    border-radius: 6px; /* border-m */
+    background: #F3F4F6FF; 
+    border-radius: 6px; 
     border-width: 0px; 
     outline: none; 
 }
@@ -85,38 +85,21 @@ body {
     width: 25px;
     cursor: pointer;
 }
-/* 
-.eye-open {
-    display: none;
-    vertical-align:middle;
-    width: 25px;
-}
- */
-
-/* input {
-  padding: 15px 150px 15px 20px;
-  font-size: 18px; 
-  font-weight: 400; 
-  background: #F3F4F6FF; 
-  border-radius: 6px; 
-  border-width: 0px; 
-  outline: none; 
-} */
 
 
 input:hover {
-  color: #171A1FFF; /* neutral-400 */
-  background: #F3F4F6FF; /* neutral-200 */
+  color: #171A1FFF;
+  background: #F3F4F6FF;
 }
 /* focused */
 input:focused {
-  color: 171A1FFF; /* neutral-400 */
-  background: #FFFFFFFF; /* white */
+  color: 171A1FFF;
+  background: #FFFFFFFF;
 }
 /* disabled */
 input:disabled {
-  color: #BCC1CAFF; /* neutral-400 */
-  background: #F3F4F6FF; /* neutral-200 */
+  color: #BCC1CAFF; 
+  background: #F3F4F6FF; 
 }
 
 .button {
@@ -230,8 +213,8 @@ input:disabled {
         align-items: center;
         justify-content: space-between;
         width:92%;
-        background: #F3F4F6FF; /* neutral-200 */
-        border-radius: 6px; /* border-m */
+        background: #F3F4F6FF;
+        border-radius: 6px; 
         border-width: 0px; 
         outline: none; 
     }
